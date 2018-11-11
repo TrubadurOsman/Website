@@ -17,6 +17,14 @@ th, td {
 
 
 }
+main {
+
+  background-color:#ddddd9 ;
+  background-size: 270px;
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  
+}
 
 .header {
   display: flex;
@@ -31,9 +39,6 @@ th, td {
 }
 .awards {
   margin: auto;
-
-  
-
 
 }
 .award_outcome{
@@ -50,8 +55,6 @@ th, td {
   font-size: 11pt ;
 
 }
-
-
 .caption {
   margin: auto;
   padding: 80px;
@@ -68,8 +71,10 @@ th, td {
 }
 
 .nav-item {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
   align-self: center;
-
   margin: auto;
   width: 70%;
   font-family: "Courier New", serif;
@@ -78,22 +83,12 @@ th, td {
   color: #e2e8e4;
   background-color: #484f4f;
   padding: 12px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+  
 }
 .nav-item:hover,
 .nav-item:active {
-  color: #484f4f !important;
+  color: #484f4f ;
   background-color: #c7c9c89e;
-}
-main {
-
-  background-color:#ddddd9 ;
-  background-size: 270px;
-  background-image: url(img/background.jpg);
-  background-size: cover;
-  
 }
 .header-article{
   display: block;
@@ -105,35 +100,31 @@ main {
 
 }
 .main-article {
-  margin-left: 27%;
-  margin-right: 27%;
-  background-color: #fff;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  
+ background-color: #fff;
+ padding-top: 8px;
+ padding-bottom: 8px;
+ margin-left: 27%;
+ margin-right: 27%;
+ 
+
 }
 .article-text {
   font-size: 16pt;
 }
 
-.footer-item {
+.footer-i {
   color: #e2e8e4;
-  background-color: #484f4f;
-  padding: 14px 25px;
   text-align: left;
   text-decoration: none;
   display: inline-block;
-}
-
-
-
-
-.footer {
   background-color: #484f4f;
+  padding: 14px 25px;
+}
+.footer {
 
   display: flex;
   width: 100%;
-  
+  background-color: #484f4f;
 }
 
 .footer-p {

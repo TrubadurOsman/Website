@@ -5,58 +5,27 @@ html {
   margin: 0px;
   height: 100%;
 }
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-    
+main {
 
+  background-color:#ddddd9 ;
+  background-size: 500px;
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  
 }
-th, td {
 
-
-
-}
 .img-home{
   border-radius: 50%;
+  width: 225px;
+  height: 225px;
 }
 
-.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-}
-.gallery:hover {
-    border: 1px solid #777;
-}
-
-.gallery img {
-    width: 100%;
-    height: auto;
-}
-
-.desc {
-    padding: 15px;
-    text-align: center;}
 
 .header {
   display: flex;
   margin: 0;
 
 }
-.header-awards{
-  text-align: center;
-  margin: auto;
-  padding: 25px;
-}
-.awards {
-margin: auto;
-
-  
-
-
-}
-
 
 .caption {
   margin: auto;
@@ -74,19 +43,21 @@ margin: auto;
 }
 
 .nav-item {
+  
+  background-color: #484f4f;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
   align-self: center;
-
   margin: auto;
   width: 70%;
   font-family: "Courier New", serif;
   font-size: 17pt;
   font-weight: bolder;
   color: #e2e8e4;
-  background-color: #484f4f;
-  padding: 12px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+  
+ 
 }
 .img{
  
@@ -98,14 +69,7 @@ margin: auto;
   color: #484f4f ;
   background-color: #c7c9c89e;
 }
-main {
 
-  background-color:#ddddd9 ;
-  background-size: 500px;
-  background-image: url(img/background.jpg);
-  background-size: cover;
-  
-}
 .header-article{
   display: block;
   font-family: 'Calligraffitti',Times, serif;
@@ -121,23 +85,17 @@ main {
   background-color: #fff;
   padding: 15px;
   font-family:Times;
-}
-.article-text {
   font-size: 16pt;
 }
 
-.footer-item {
+
+.footer-i {
   color: #e2e8e4;
   background-color: #484f4f;
   padding: 14px 25px;
-  text-align: left;
   text-decoration: none;
   display: inline-block;
 }
-
-
-
-
 .footer {
   background-color: #484f4f;
 
@@ -145,7 +103,6 @@ main {
   width: 100%;
   
 }
-
 .footer-p {
   color: #e3edfa;
   font-family: 'Calligraffitti',Times, serif;
